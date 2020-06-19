@@ -1,0 +1,155 @@
+Name : Shambhavi Mishra
+-----------------------------------------------------------------
+The below is my day 1 , day 2 and day 3 tasks.
+-----------------------------------------------------------------
+
+# Day 1
+
+## Ques 1. What do you mean by git and GitHub?
+Ans  
+1. Git- Created by Linux Torvald (Same person who created Linux Kernel)
+      - Git is the actual version control software.This the actual appliaction.
+
+   Github - It is a web service where you can sign up and have an account and do stuff, do Git things, on a server, on a website.
+          - GitHub kind of runs the Git software behind the scenes.
+          - Some people also call it as social coding. In a way , it's like a social network for projects that are mananged through Git.
+
+## Ques 2. Why GitHub is so popular and used in most of the projects?
+Ans  2. In git, it handles all those merging of different source code from different people and maintaining versions.
+        Git is actually a distributed version control system .
+        SCM - Software Configuration Manganement/ Source Code Management
+        MVP - Minimal Value Product
+
+
+
+## Ques 3. What is a version control system? How Git is a VCS?
+Ans  3. Version Control Systems - Subversion or git
+       Why not subversion? :- It is because earlier people used to use CVCS- Centralized Version Control but now they use DVCS - Distributed Version Control System
+       CVCS -In this the earlier version was stored in server.
+            -We have a working copy, but what if the server fails.
+            -What if we dont a network connection.
+            -We have a single point of failure.
+       DVCS -Multiple machine, and everyone has its own personal working copy. 
+            -We will have a local repository and on the server we have a remote repository.
+            -We can provide the local copy to the server next time if the server fails.
+            -We are distributing the local respositries.
+            -Without internet connection connection also we can work on our local working copy and then we we gwt back the internet connection, then we can just push it on the server.
+
+## Ques 4. What are the other platforms similar to GitHub?
+Ans 
+4. Git alterantives are as follows :
+    -GitLab
+    -BitBucket
+    -SourceForge
+    -Launchpad
+    -Google Cloud Source Repositories
+    -AWS CodeCommit
+    -Phabricator
+    -Gogs
+
+## Ques 5. Why are you interested in learning of Git and Github?
+Ans  
+5.
+  -The history of what you are making is important and that is what is known as version control.
+    Rather than a creator having to keep a track of seperate files and history yourself manually, Git is a piece of software that does that for you.
+    Collaboration is another of its feature that allows many people to collaborate on the project together.
+
+   -Git is free and open source.
+
+   -Truck based development
+    In git you have a branch- master branch (commit and save).
+    In order to work on a different version, you can create a different branch.
+    You can merge the changes of various branches afterwards.
+
+   -Dropbox will have the backup of your project
+
+   -Creating your own github repository is possible. 
+    You can buy a git server and then you can add your git service there.
+    But we don't need to buy those services actually.
+    We have two different webs in fact we have mutiple implementations, one of them is github or we can use bitbucket or we can also use some GUI tools to work with them .
+
+
+# Day 2
+
+Hello People!
+--------------------------------------------------------------------
+I am Shambhavi Mishra from DIT University.
+--------------------------------------------------------------------
+This is my Day-2 task.
+---------------------------------------------------------------------
+1. Share the link to the GitHub repository you have created.
+ https://github.com/shambhavi1304/github_series
+2. Your README should contain a brief about the project and should be written in markdown language.
+Drop the answer to the following questions
+
+## a. How git workflow works?
+Ans a. It is basically a recommendation to use git efficiently.
+
+## b. What're the different stages of a git project as commit, add?
+Ans b. The stages are as follows:
+       Modify
+       commit
+       Stage
+
+## c. Is it possible to do a git commit before git add . if you have made any changes? Explain why?
+Ans c. Yes, it is possible to do a git commit before git add. I tried various combinations.
+
+## d. Why is git diff used?
+Ans d. It is used to check the differences if there are any that may have still left after making changes to the file.
+
+##e. Can we leave the commit message as blank?
+Ans e. It is a good practice to give a non-empty commit message.
+Although, it can be left blank.
+
+# Day 3
+
+Hello People !
+--------------------------------------------------------------------
+I am Shambhavi Mishra from DIT University.
+--------------------------------------------------------------------
+The following is my Day-3 task.
+---------------------------------------------------------------------
+
+First PR : https://github.com/codewayy/github_series/pull/28
+
+Sceond PR : https://github.com/codewayy/github_series/pull/37
+
+The answers to the asked questions are as follows:
+
+## a. What is meant by the term fork and clone?
+Ans a: Fork: It is creating a copy of the original repository (upstream repository) but the repository remains on your GitHub account.
+       Clone: Clonning a repository refers to the repository being copied on to your local machine with the help of Git.
+
+## b. What are branches in Github?
+Ans b:  A branch is essentially is a unique set of code changes with a unique name. 
+        Each repository can have one or more branches
+
+## c. What is PR?
+Ans c: PR stands for Pull Request.
+       It lets us inform others about changes we've pushed to a GitHub repository.
+       Once a pull request is sent, interested parties can review the set of changes, discuss potential modifications, and even push follow-up commits if necessary.
+
+## d. Can we delete the master branch if not Why?
+Ans d: To delete the master branch we need to change your GitHub repo default branch.
+       For that we need to go to the GitHub page for your forked repository, and click on the “Settings” button.
+       Click on the "Branches" tab on the left hand side. There’s a “Default branch” dropdown list near the top of the screen.
+       From there, select placeholder (where placeholder is the dummy name for your new default branch).
+       Confirm that we want to change your default branch.
+       Now we can do (from the command line):
+
+       git push origin :master
+
+## e. How can we delete a branch? 
+Ans e :We can't delete a branch if it's currently associated with an open pull request.
+       On GitHub, navigate to the main page of the repository.
+       Above the list of files, click  NUMBER branches.
+       Branches link on overview page
+       Scroll to the branch that you want to delete, then click the deelte icon.
+       delete the branch
+       If you delete a head branch after its pull request has been merged, GitHub checks for any open pull requests in the same repository that specify the deleted branch as their base branch. 
+       GitHub automatically updates any such pull requests, changing their base branch to the merged pull request's base branch.
+     
+       Command line:
+       We can delete a branch in two ways:
+      -Locally : git branch -d <branch>.
+      -Remotely:git push <remote> --delete <branch>.

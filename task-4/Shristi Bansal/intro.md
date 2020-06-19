@@ -1,0 +1,8 @@
+**INTRODUCTION**
+
+### Hie
+### This is Shristi Bansal currently pursuing Btech CSE 2nd year from Banasthali Vidyapith.
+### Skills:-C, C++
+### Interested in:-Machine learning, Data Science and Web development
+### LINKEDIN:-
+### https://www.linkedin.com/in/shristi-bansal-aa49681ab/</P>
