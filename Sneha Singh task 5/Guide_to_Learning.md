@@ -93,5 +93,6 @@ You must resolve this merge conflict with a new commit before you can merge thes
 ` git commit -m "Resolved merge conflict"`
 
 
-***These are some basic Concepts you need to get started with Git and Github**
+**These are some basic Concepts you need to get started with Git and Github**
+
 ***Thanks for your patient reading:smile:***
